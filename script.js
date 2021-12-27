@@ -38,3 +38,4 @@ let cat =
 //alert(typeof x);
 //alert(typeof userName);
 alert(typeof cat);
+alert(typeof(cat));
