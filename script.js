@@ -37,7 +37,10 @@ let cat =
 //or
 //alert(typeof x);
 //alert(typeof userName);
-alert(typeof cat);
-alert(typeof(cat));
+// alert(typeof cat);
+// alert(typeof(cat));
 
 console.log(cat)
+document.write(x);//опасный метод! 1:59:00
+document.write('<h2>' + x + '</h2>');//
+document.write(`<h2>${x}</h2>`);// только обратные одиночные кавычки  опасный метод! 1:59:00
